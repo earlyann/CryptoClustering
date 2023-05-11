@@ -39,6 +39,6 @@ A scatter plot is then created using hvPlot to visualize the clustering results.
 This project demonstrates how K-Means clustering and PCA can be used to cluster and visualize cryptocurrencies. The elbow method is used to determine the optimal number of clusters, and the clustering results obtained from the original scaled DataFrame and the PCA data are compared. The project showcases the importance of feature selection and data normalization for accurate clustering results.
 
 ### Future Work
-Future work for this project could involve exploring other clustering algorithms, such as hierarchical clustering or DBSCAN, and comparing their results with those obtained using K-Means clustering. Additionally, other feature selection and dimensionality reduction techniques, such as feature scaling or t-SNE, could be applied to the data to further optimize the clustering results.
+Future work for this project could involve exploring other clustering algorithms, such as hierarchical clustering or DBSCAN, and comparing their results with those obtained using K-Means clustering. Additionally, other feature selection and dimensionality reduction techniques could be applied to the data to further optimize the clustering results.
 
 Author: Lacey Morgan
