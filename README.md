@@ -9,7 +9,6 @@ This project groups cryptocurrencies using K-Means clustering. We will also comp
 - Pandas
 - hvPlot
 - K-Means clustering
-- StandardScaler
 - Principal Component Analysis (PCA)
 - Elbow method
 
@@ -36,7 +35,7 @@ A scatter plot is then created using hvPlot to visualize the clustering results.
 
 
 ### Conclusion
-This project demonstrates how K-Means clustering and PCA can be used to cluster and visualize cryptocurrencies. The elbow method is used to determine the optimal number of clusters, and the clustering results obtained from the original scaled DataFrame and the PCA data are compared. The project showcases the importance of feature selection and data normalization for accurate clustering results.
+The analysis shows how unsupervised learning can uncover relationships between cryptocurrencies. The clustered coins likely behave similarly in the market based on the features analyzed. This can inform investment strategies based on cluster patterns. The visualizations and elbow method were key for assessing and tuning the model. This provides a template for further crypto clustering analyses in the future.
 
 ### Future Work
 Future work for this project could involve exploring other clustering algorithms, such as hierarchical clustering or DBSCAN, and comparing their results with those obtained using K-Means clustering. Additionally, other feature selection and dimensionality reduction techniques could be applied to the data to further optimize the clustering results.
